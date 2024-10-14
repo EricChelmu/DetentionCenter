@@ -8,7 +8,7 @@ namespace player
     public class Interactable : MonoBehaviour
     {
         Outline outline;
-        [SerializeField] private string message;
+        public string message;
 
         public UnityEvent onInteraction;
 
